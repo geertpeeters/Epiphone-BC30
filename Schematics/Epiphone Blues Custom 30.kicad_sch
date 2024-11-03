@@ -22680,7 +22680,7 @@
 				)
 			)
 		)
-		(property "Value" "223/400V"
+		(property "Value" "104/400V"
 			(at 329.7623 49.1923 90)
 			(effects
 				(font
@@ -23272,7 +23272,7 @@
 				)
 			)
 		)
-		(property "Value" "471/400V"
+		(property "Value" "100/400V"
 			(at 109.982 41.656 90)
 			(effects
 				(font
@@ -24734,7 +24734,7 @@
 				)
 			)
 		)
-		(property "Value" "223/400V"
+		(property "Value" "104/400V"
 			(at 329.7623 45.7405 90)
 			(effects
 				(font
@@ -28429,7 +28429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K/1W"
+		(property "Value" "1K5/1W"
 			(at 84.3554 75.7844 90)
 			(effects
 				(font
@@ -29194,7 +29194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "101/1KV"
+		(property "Value" "471/1KV"
 			(at 108.966 59.944 0)
 			(effects
 				(font
@@ -29900,8 +29900,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220K/1W"
-			(at 232.918 74.93 90)
+		(property "Value" "1M/1W"
+			(at 232.918 74.422 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -30595,8 +30595,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2K/1W"
-			(at 129.286 66.802 90)
+		(property "Value" "1K5/1W"
+			(at 129.286 66.548 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -39525,7 +39525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "471/1KV"
+		(property "Value" "101/1KV"
 			(at 155.956 45.72 0)
 			(effects
 				(font
@@ -40227,7 +40227,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K/1W"
+		(property "Value" "5K6/1W"
 			(at 261.7204 76.3352 90)
 			(effects
 				(font
@@ -41193,7 +41193,7 @@
 				)
 			)
 		)
-		(property "Value" "220K/1W"
+		(property "Value" "1M/1W"
 			(at 307.6104 103.6247 90)
 			(effects
 				(font
@@ -42724,7 +42724,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF/50V"
+		(property "Value" "22uF/50V"
 			(at 74.93 73.66 0)
 			(effects
 				(font
@@ -42863,7 +42863,7 @@
 				)
 			)
 		)
-		(property "Value" "220K/1W"
+		(property "Value" "470K/1W"
 			(at 213.868 38.1 90)
 			(effects
 				(font
