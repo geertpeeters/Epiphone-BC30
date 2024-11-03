@@ -15655,17 +15655,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.206 243.84) (xy 251.46 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "5146c5b0-cf72-416a-9971-d7fbc3515cd0")
-	)
-	(wire
-		(pts
 			(xy 290.068 158.242) (xy 295.656 158.242)
 		)
 		(stroke
@@ -20392,7 +20381,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 243.84) (xy 251.46 245.11)
+			(xy 251.206 243.84) (xy 251.206 246.126)
 		)
 		(stroke
 			(width 0)
@@ -41677,7 +41666,7 @@
 		(dnp no)
 		(uuid "efa7e9ad-750b-4721-a0fb-5a8c0dd33e99")
 		(property "Reference" "C36"
-			(at 253.746 235.712 0)
+			(at 254 235.966 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -41685,8 +41674,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 255.27 237.363 0)
+		(property "Value" "100uF/400V"
+			(at 254 237.49 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42014,7 +42003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 245.11 0)
+		(at 251.206 246.126 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42023,7 +42012,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3da39b0-a59c-4044-9d47-44780736fd64")
 		(property "Reference" "#PWR03"
-			(at 251.46 251.46 0)
+			(at 251.206 252.476 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42032,7 +42021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 250.19 0)
+			(at 251.206 251.206 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42042,7 +42031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 245.11 0)
+			(at 251.206 246.126 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42051,7 +42040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 245.11 0)
+			(at 251.206 246.126 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42060,7 +42049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 245.11 0)
+			(at 251.206 246.126 0)
 			(effects
 				(font
 					(size 0.889 0.889)
