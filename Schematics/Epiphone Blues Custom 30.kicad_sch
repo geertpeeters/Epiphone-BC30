@@ -21447,6 +21447,32 @@
 		)
 		(uuid ba0e5306-0919-4bdd-bc00-d983f279b0b3)
 	)
+	(text "TREBLE"
+		(exclude_from_sim no)
+		(at 281.178 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "04321d7c-15d2-428c-a4c6-4d2c211eeda2")
+	)
+	(text "MID"
+		(exclude_from_sim no)
+		(at 201.422 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "096b5f3f-fa0d-4c0d-bd1a-8cc985291b01")
+	)
 	(text "RED"
 		(exclude_from_sim no)
 		(at 165.608 222.758 0)
@@ -21473,6 +21499,19 @@
 		)
 		(uuid "1476da95-3e6b-429e-9d56-cfd3081efe6a")
 	)
+	(text "DRIVE"
+		(exclude_from_sim no)
+		(at 110.998 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "16adeaac-ae2f-4738-bafa-d719602ea25d")
+	)
 	(text "BRN"
 		(exclude_from_sim no)
 		(at 165.608 214.63 0)
@@ -21498,6 +21537,19 @@
 			)
 		)
 		(uuid "2265ee1f-c16c-48e3-a5c8-e161fed65eca")
+	)
+	(text "MIDDLE"
+		(exclude_from_sim no)
+		(at 255.27 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "27adcb0b-a8a0-49b4-98ac-408324db1dad")
 	)
 	(text "MAIN FUSE\n100-120VAC T3.15AL 250V\n220-240VAC T1.6AL 250V"
 		(exclude_from_sim no)
@@ -21599,6 +21651,19 @@
 			)
 		)
 		(uuid "7316a6f4-7220-4be2-a083-b23ec9df0889")
+	)
+	(text "VOLUME"
+		(exclude_from_sim no)
+		(at 95.758 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "7ba6b926-dfac-4622-812a-0e991fd46917")
 	)
 	(text "BLU"
 		(exclude_from_sim no)
@@ -21702,6 +21767,19 @@
 		)
 		(uuid "a0677573-c427-4724-83fc-fb142d31a290")
 	)
+	(text "BASS"
+		(exclude_from_sim no)
+		(at 257.81 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "ae596883-b145-4ff9-a6dd-c7bc2274a80e")
+	)
 	(text "@250mA"
 		(exclude_from_sim no)
 		(at 157.226 237.744 0)
@@ -21752,6 +21830,19 @@
 		)
 		(uuid "d6983eda-c18a-44bd-a7e4-e34089871050")
 	)
+	(text "REVERB"
+		(exclude_from_sim no)
+		(at 263.144 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "de1a103f-6c75-42a4-a974-dbc4277e4154")
+	)
 	(text "BLK"
 		(exclude_from_sim no)
 		(at 165.608 263.398 0)
@@ -21764,6 +21855,19 @@
 			)
 		)
 		(uuid "f22dbc1b-5dc2-434d-ab17-b91e2b67552d")
+	)
+	(text "LEVEL"
+		(exclude_from_sim no)
+		(at 217.17 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "f965f990-1ced-4c6e-9b86-988cfa5e70df")
 	)
 	(text "RED"
 		(exclude_from_sim no)
@@ -21779,7 +21883,6 @@
 		(uuid "fe10e284-feb4-49a1-a3b7-af7593327a84")
 	)
 	(symbol
-		(lib_name "Epi-BC-30:12AX7a")
 		(lib_id "Epi-BC-30:12AX7a")
 		(at 308.356 62.738 0)
 		(unit 1)
@@ -22080,7 +22183,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 198.628 237.744 180)
 		(unit 1)
@@ -23003,7 +23105,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:5881")
 		(lib_id "Epi-BC-30:5881")
 		(at 312.42 189.992 0)
 		(mirror x)
@@ -24125,7 +24226,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 252.476 166.37 0)
 		(unit 1)
@@ -24196,7 +24296,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:12AX7a")
 		(lib_id "Epi-BC-30:12AX7a")
 		(at 149.352 125.984 0)
 		(unit 1)
@@ -25011,7 +25110,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B250K REVERB"
+		(property "Value" "B250K"
 			(at 255.5156 119.743 90)
 			(effects
 				(font
@@ -25927,7 +26026,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 258.064 180)
 		(unit 1)
@@ -26429,7 +26527,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:12AX7a")
 		(lib_id "Epi-BC-30:12AX7a")
 		(at 177.8 46.228 0)
 		(unit 1)
@@ -26575,7 +26672,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 252.476 174.498 0)
 		(unit 1)
@@ -26984,7 +27080,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 228.6 182.626 0)
 		(unit 1)
@@ -27689,7 +27784,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 215.392 180)
 		(unit 1)
@@ -29240,7 +29334,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 264.16 180)
 		(unit 1)
@@ -30625,7 +30718,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 198.628 254 180)
 		(unit 1)
@@ -33017,7 +33109,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 198.628 245.872 180)
 		(unit 1)
@@ -33634,7 +33725,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 252.476 182.626 0)
 		(unit 1)
@@ -34939,7 +35029,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 229.616 180)
 		(unit 1)
@@ -35840,7 +35929,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:5881")
 		(lib_id "Epi-BC-30:5881")
 		(at 312.42 159.512 0)
 		(unit 1)
@@ -36343,7 +36431,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 219.456 180)
 		(unit 1)
@@ -38725,7 +38812,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:12AX7a")
 		(lib_id "Epi-BC-30:12AX7a")
 		(at 226.822 121.666 0)
 		(unit 1)
@@ -42288,8 +42374,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A250K MID"
-			(at 204.5617 55.5022 90)
+		(property "Value" "A250K"
+			(at 204.47 58.166 90)
 			(effects
 				(font
 					(size 0.889 0.889)
