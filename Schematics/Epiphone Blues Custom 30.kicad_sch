@@ -11571,6 +11571,171 @@
 				)
 			)
 		)
+		(symbol "R_Potentiometer_8"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "VR9"
+				(at -2.794 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -5.334 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_8_1_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+						(color 194 0 194 1)
+					)
+					(fill
+						(type color)
+						(color 194 0 194 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 194 0 194 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 194 0 194 1)
+					)
+					(fill
+						(type color)
+						(color 194 0 194 1)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transformer_1P_1S_1"
 			(pin_names
 				(offset 1.016) hide)
@@ -13590,6 +13755,12 @@
 		(uuid "b2f49c4c-9f41-4b83-93b7-3fddd388f3ec")
 	)
 	(junction
+		(at 314.452 101.346)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b53ab89c-ba28-49f6-aec2-3073e23fb56c")
+	)
+	(junction
 		(at 336.804 188.976)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -13876,12 +14047,6 @@
 		(diameter 0)
 		(color 194 0 0 1)
 		(uuid "fc8899b9-b46d-4ea8-8051-e2fca5c37301")
-	)
-	(junction
-		(at 314.452 101.346)
-		(diameter 0)
-		(color 194 0 0 1)
-		(uuid "fd11e0e2-bbcb-4e71-bd57-13439f990ab9")
 	)
 	(wire
 		(pts
@@ -14815,6 +14980,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 101.346) (xy 314.452 101.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9ed241-0475-43a8-9b55-47821441762d")
+	)
+	(wire
+		(pts
 			(xy 261.366 280.67) (xy 261.366 277.876)
 		)
 		(stroke
@@ -15482,6 +15657,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "32c78e2b-e088-46c6-8816-7330f1bec6f5")
+	)
+	(wire
+		(pts
+			(xy 314.452 101.346) (xy 314.452 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fd348d-ca11-4b15-b63b-3a6dbc72ea86")
 	)
 	(wire
 		(pts
@@ -16283,17 +16468,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "4a7d8773-2f95-409a-923f-f1632e8de1db")
-	)
-	(wire
-		(pts
-			(xy 311.15 101.346) (xy 314.452 101.346)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "4b3b2e34-824d-4b7b-89b2-a7b32ff22733")
 	)
 	(wire
 		(pts
@@ -17320,7 +17494,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.228 101.346) (xy 303.53 101.346)
+			(xy 300.228 105.156) (xy 303.53 105.156)
 		)
 		(stroke
 			(width 0)
@@ -18802,6 +18976,17 @@
 	)
 	(wire
 		(pts
+			(xy 300.228 105.156) (xy 300.228 101.346)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "97fe9e76-107c-4ba4-858f-5b13aa1d3be8")
+	)
+	(wire
+		(pts
 			(xy 72.898 246.126) (xy 72.898 251.714)
 		)
 		(stroke
@@ -19028,17 +19213,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "9c83560d-e40d-4e1d-8fcd-c13edf7a4d9f")
-	)
-	(wire
-		(pts
-			(xy 314.452 102.87) (xy 314.452 101.346)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "9cdc1d9f-12b6-4b35-8c5f-8fbd545eb2aa")
 	)
 	(wire
 		(pts
@@ -22570,6 +22744,19 @@
 		)
 		(uuid "616557d6-fb23-4370-8886-96afb7ab1b44")
 	)
+	(text "MASTER VOLUME"
+		(exclude_from_sim no)
+		(at 307.34 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "69e1b3bc-2469-494a-a828-458442b3d7e6")
+	)
 	(text "240VAC"
 		(exclude_from_sim no)
 		(at 98.298 192.786 0)
@@ -25451,7 +25638,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:SPST-Small")
 		(lib_id "Epi-BC-30:SPST-Small")
 		(at 108.712 55.118 90)
 		(unit 1)
@@ -25662,7 +25848,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:SPST-Small")
 		(lib_id "Epi-BC-30:SPST-Small")
 		(at 106.68 38.354 0)
 		(unit 1)
@@ -35085,6 +35270,78 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Potentiometer_8")
+		(lib_id "Device:R_Potentiometer")
+		(at 307.34 105.156 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90cc4809-83a1-4599-9bea-75fe1eed82f6")
+		(property "Reference" "VR9"
+			(at 307.34 107.442 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "B1M"
+			(at 307.34 105.156 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 307.34 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f4cf8044-fca9-4011-9bc2-766905a6a726")
+		)
+		(pin ""
+			(uuid "5e481052-d28b-477d-a68e-14785b44982d")
+		)
+		(pin ""
+			(uuid "1ab886db-fddf-474e-8dc5-03dfc3a89caa")
+		)
+		(instances
+			(project ""
+				(path "/a50ba6b9-ea4a-46b2-bba0-285d6470a187"
+					(reference "VR9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Epi-BC-30:Label")
 		(at 62.992 215.138 180)
 		(unit 1)
@@ -40325,7 +40582,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:SPST-Small")
 		(lib_id "Epi-BC-30:SPST-Small")
 		(at 122.936 38.1 90)
 		(unit 1)
@@ -42537,74 +42793,6 @@
 			(project ""
 				(path "/a50ba6b9-ea4a-46b2-bba0-285d6470a187"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 307.34 101.346 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e62ec669-f6ee-48fc-8ee9-eb68b3f2906a")
-		(property "Reference" "R39"
-			(at 307.3564 101.3387 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "220K/1W"
-			(at 307.6104 103.6247 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-					(color 194 0 0 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 99.568 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 307.34 101.346 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 307.34 101.346 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de2e3d2f-101f-4197-8a83-01728fb10786")
-		)
-		(pin "1"
-			(uuid "5426b21b-9a90-498f-9989-988dab247222")
-		)
-		(instances
-			(project ""
-				(path "/a50ba6b9-ea4a-46b2-bba0-285d6470a187"
-					(reference "R39")
 					(unit 1)
 				)
 			)
