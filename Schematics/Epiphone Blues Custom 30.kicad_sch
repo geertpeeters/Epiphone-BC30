@@ -5,10 +5,13 @@
 	(uuid "a50ba6b9-ea4a-46b2-bba0-285d6470a187")
 	(paper "A3")
 	(title_block
-		(title "Epiphone Blues Custom 30")
+		(title "Epiphone Blues Custom 30 Version 2005")
 		(date "2024/11/02")
 		(rev "1")
 		(comment 1 "Creator : Geert Peeters")
+		(comment 2 "Modifications : C3,C5,C6,C15,R15,R22,R39")
+		(comment 3 "Added choke resistors 68R/25W")
+		(comment 4 "Added Master Volume")
 	)
 	(lib_symbols
 		(symbol "12AX7a_1"
