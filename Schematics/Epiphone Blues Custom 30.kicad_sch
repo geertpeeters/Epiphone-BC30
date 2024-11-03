@@ -21557,6 +21557,19 @@
 		)
 		(uuid "56277e8d-af7a-44ae-a8fd-7f7a3c1809cd")
 	)
+	(text "TEST"
+		(exclude_from_sim no)
+		(at 36.83 140.97 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "59a5e5c8-f309-4045-abe9-531e397c1798")
+	)
 	(text "100VAC"
 		(exclude_from_sim no)
 		(at 74.422 153.67 0)
@@ -21779,7 +21792,6 @@
 		(uuid "fe10e284-feb4-49a1-a3b7-af7593327a84")
 	)
 	(symbol
-		(lib_name "Epi-BC-30:12AX7a")
 		(lib_id "Epi-BC-30:12AX7a")
 		(at 308.356 62.738 0)
 		(unit 1)
@@ -22080,7 +22092,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 198.628 237.744 180)
 		(unit 1)
@@ -23003,7 +23014,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:5881")
 		(lib_id "Epi-BC-30:5881")
 		(at 312.42 189.992 0)
 		(mirror x)
@@ -24125,7 +24135,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 252.476 166.37 0)
 		(unit 1)
@@ -24196,7 +24205,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:12AX7a")
 		(lib_id "Epi-BC-30:12AX7a")
 		(at 149.352 125.984 0)
 		(unit 1)
@@ -25927,7 +25935,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 258.064 180)
 		(unit 1)
@@ -26429,7 +26436,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:12AX7a")
 		(lib_id "Epi-BC-30:12AX7a")
 		(at 177.8 46.228 0)
 		(unit 1)
@@ -26575,7 +26581,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 252.476 174.498 0)
 		(unit 1)
@@ -26984,7 +26989,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 228.6 182.626 0)
 		(unit 1)
@@ -27689,7 +27693,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 215.392 180)
 		(unit 1)
@@ -29240,7 +29243,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 264.16 180)
 		(unit 1)
@@ -30625,7 +30627,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 198.628 254 180)
 		(unit 1)
@@ -33017,7 +33018,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 198.628 245.872 180)
 		(unit 1)
@@ -33634,7 +33634,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 252.476 182.626 0)
 		(unit 1)
@@ -34939,7 +34938,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 229.616 180)
 		(unit 1)
@@ -35840,7 +35838,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:5881")
 		(lib_id "Epi-BC-30:5881")
 		(at 312.42 159.512 0)
 		(unit 1)
@@ -36343,7 +36340,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:Label")
 		(lib_id "Epi-BC-30:Label")
 		(at 174.752 219.456 180)
 		(unit 1)
@@ -38725,7 +38721,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Epi-BC-30:12AX7a")
 		(lib_id "Epi-BC-30:12AX7a")
 		(at 226.822 121.666 0)
 		(unit 1)
