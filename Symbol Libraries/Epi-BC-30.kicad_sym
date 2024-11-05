@@ -4053,14 +4053,14 @@
 			(pin passive line
 				(at -3.048 0 0)
 				(length 0.508)
-				(name "A"
+				(name ""
 					(effects
 						(font
 							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4071,14 +4071,14 @@
 			(pin passive line
 				(at 3.048 0 180)
 				(length 0.508)
-				(name "B"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
