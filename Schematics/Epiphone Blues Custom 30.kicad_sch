@@ -5,8 +5,8 @@
 	(uuid "a50ba6b9-ea4a-46b2-bba0-285d6470a187")
 	(paper "A3")
 	(title_block
-		(title "Epiphone Blues Custom 30")
-		(date "2024/11/02")
+		(title "Epiphone Blues Custom 30 : Version-2006-060622-DPPT")
+		(date "2024/11/07")
 		(rev "1")
 		(comment 1 "Creator : Geert Peeters")
 	)
@@ -15655,17 +15655,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.206 243.84) (xy 251.46 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "5146c5b0-cf72-416a-9971-d7fbc3515cd0")
-	)
-	(wire
-		(pts
 			(xy 290.068 158.242) (xy 295.656 158.242)
 		)
 		(stroke
@@ -20392,7 +20381,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 243.84) (xy 251.46 245.11)
+			(xy 251.206 243.84) (xy 251.206 245.11)
 		)
 		(stroke
 			(width 0)
@@ -23341,7 +23330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/450V"
+		(property "Value" "22µF/450V"
 			(at 354.076 226.568 0)
 			(effects
 				(font
@@ -23411,7 +23400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/35V"
+		(property "Value" "22µF/35V"
 			(at 138.176 64.262 0)
 			(effects
 				(font
@@ -27732,7 +27721,7 @@
 			)
 		)
 		(property "Value" "220K/2W"
-			(at 242.824 225.806 90)
+			(at 243.078 226.314 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -29830,7 +29819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF/450V"
+		(property "Value" "47µF/450V"
 			(at 339.8025 226.5221 0)
 			(effects
 				(font
@@ -30803,7 +30792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/35V"
+		(property "Value" "22µF/35V"
 			(at 224.282 141.986 0)
 			(effects
 				(font
@@ -30873,7 +30862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/35V"
+		(property "Value" "22µF/35V"
 			(at 146.558 145.034 0)
 			(effects
 				(font
@@ -31435,7 +31424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/450V"
+		(property "Value" "22µF/450V"
 			(at 368.3 226.822 0)
 			(effects
 				(font
@@ -33468,7 +33457,7 @@
 				)
 			)
 		)
-		(property "Value" "100uF/100V"
+		(property "Value" "100µF/100V"
 			(at 323.7104 183.6435 90)
 			(effects
 				(font
@@ -35808,7 +35797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/35V"
+		(property "Value" "22µF/35V"
 			(at 243.84 80.518 0)
 			(effects
 				(font
@@ -36095,7 +36084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF/400V"
+		(property "Value" "100µF/400V"
 			(at 325.882 236.728 0)
 			(effects
 				(font
@@ -36165,7 +36154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22000uF/25V"
+		(property "Value" "22000µF/25V"
 			(at 237.3986 274.0401 0)
 			(effects
 				(font
@@ -36517,7 +36506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF/400V"
+		(property "Value" "100µF/400V"
 			(at 325.882 226.568 0)
 			(effects
 				(font
@@ -38328,7 +38317,7 @@
 		(dnp no)
 		(uuid "c5319904-a965-4d23-b1d9-51774605a0dc")
 		(property "Reference" "C35"
-			(at 254.254 220.472 0)
+			(at 254 221.488 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -38336,8 +38325,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF/400V"
-			(at 254.508 222.504 0)
+		(property "Value" "100µF/400V"
+			(at 254 223.012 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -40158,7 +40147,7 @@
 				)
 			)
 		)
-		(property "Value" "47p/2KV"
+		(property "Value" "47pF/2KV"
 			(at 313.4604 55.7963 90)
 			(effects
 				(font
@@ -41615,7 +41604,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/400V"
+		(property "Value" "0.1µF/400V"
 			(at 318.262 94.996 0)
 			(effects
 				(font
@@ -41677,7 +41666,7 @@
 		(dnp no)
 		(uuid "efa7e9ad-750b-4721-a0fb-5a8c0dd33e99")
 		(property "Reference" "C36"
-			(at 253.746 235.712 0)
+			(at 253.746 235.966 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -41685,8 +41674,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 255.27 237.363 0)
+		(property "Value" "100µF/400V"
+			(at 253.746 237.49 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42014,7 +42003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 245.11 0)
+		(at 251.206 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42023,7 +42012,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3da39b0-a59c-4044-9d47-44780736fd64")
 		(property "Reference" "#PWR03"
-			(at 251.46 251.46 0)
+			(at 251.206 251.46 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42032,7 +42021,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 250.19 0)
+			(at 251.206 250.19 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42042,7 +42031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 245.11 0)
+			(at 251.206 245.11 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42051,7 +42040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 245.11 0)
+			(at 251.206 245.11 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42060,7 +42049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 245.11 0)
+			(at 251.206 245.11 0)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -42724,7 +42713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/50V"
+		(property "Value" "22µF/50V"
 			(at 74.93 73.66 0)
 			(effects
 				(font
