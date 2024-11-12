@@ -23,7 +23,7 @@ Table 1. Version History
 - Tube powered and transformer driven reverb
 - 30W class AB (pentode) mode
 - 15W Class A (triode) mode
-- Multiple speaker output jacks (2x4Ohm, 2x8Ohm, 1x16Ohm)
+- Multiple speaker output jacks (2x4 Ohm, 2x8 Ohm, 1x16 Ohm)
 - "Lady Luck" speakers specially designed for this amplifier
 
 ## 2. Overall desired improvements
