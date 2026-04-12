@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define paths
-PROJECT_PATH="./Schematics"
-SCHEMATIC_FILE="${PROJECT_PATH}/Epiphone Blues Custom 30.kicad_sch"
+PROJECT_PATH="./schematics"
+SCHEMATIC_FILE="${PROJECT_PATH}/epiphone-blues-custom-30.kicad_sch"
 OUTPUT_DIR="./outputs"
 
 echo $SCHEMATIC_FILE

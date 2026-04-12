@@ -268,7 +268,7 @@
     ]
   },
   "meta": {
-    "filename": "Epiphone Blues Custom 30.kicad_pro",
+    "filename": "epiphone-blues-custom-30.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -423,18 +423,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Epiphone Blues Custom 30.kicad_sch",
-        "name": "Epiphone Blues Custom 30",
+        "filename": "epiphone-blues-custom-30.kicad_sch",
+        "name": "epiphone-blues-custom-30",
         "uuid": "a50ba6b9-ea4a-46b2-bba0-285d6470a187"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R15'1,R6'1,R56,C37",
     "variants": []
   },
   "sheets": [
     [
       "a50ba6b9-ea4a-46b2-bba0-285d6470a187",
-      "Epiphone Blues Custom 30"
+      "epiphone-blues-custom-30"
     ]
   ],
   "text_variables": {},
