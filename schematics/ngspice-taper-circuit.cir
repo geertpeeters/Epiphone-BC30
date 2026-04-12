@@ -1,0 +1,29 @@
+* Log-Antilog Taper Simulation (Simplified)
+* Circuit Description:
+V1 Vin 0 DC 5V               ; Voltage source V1 connected between Vin (top rail) and ground (0), DC value 5V
+R1 Vin Vout 250k            ; Resistor R1 connected between Vin and Vout, 250k Ohm
+R2 Vout 0 250k              ; Resistor R2 connected between Vout and ground, 250k Ohm
+
+* Potentiometer directly modeled as two variable resistors
+* Define global parameters for potentiometer total resistance and wiper position
+.param Ptot = 500k          ; Total resistance of the potentiometer
+.param wpos = 0.5           ; Wiper position (0 to 1, this will be swept)
+
+* R_PTOP: Potentiometer's top section (between Vin and Vout)
+* This is where the wiper connects to the parallel divider (Vout)
+R_PTOP Vin Vout {(1-wpos)*Ptot + 1u} ; Resistance from Vin to Vout, controlled by wpos
+* R_PBOTTOM: Potentiometer's bottom section (between Vout and Ground)
+R_PBOTTOM Vout 0 {wpos*Ptot + 1u} ; Resistance from Vout to Ground, controlled by wpos
+
+* Simulation Directives:
+.control
+    set controld=1      ; Enables dot commands within .control block for plotting
+    save V(Vout)        ; Saves the voltage at node Vout
+
+    * DC sweep of the 'wpos' parameter directly
+    dc param wpos 0 1 0.01 ; DC sweep, varying the global 'wpos' parameter from 0 to 1 in steps of 0.01
+
+    plot V(Vout) vs wpos ; Plot Vout against the swept parameter 'wpos'
+.endc
+
+.END                ; End of the entire SPICE netlist file
