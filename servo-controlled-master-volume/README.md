@@ -1,7 +1,5 @@
 # servo-controlled-master-volume
 ### Beschrijving & Functie
-### Beschrijving & Functie
-### Beschrijving & Functie
 Deze controller fungeert als de mechanische interface tussen de Boss GT-5 expressiepedaal en de fysieke master volume van een Epiphone Custom Blues 30 versterker.
 Het systeem vertaalt in de MIDI-modus inkomende Control Change data naar nauwkeurige hoekverdraaiingen van een servo-motor die de potmeter op de versterker fysiek bedient.
 Via een centrale microprocessor wordt continu gecontroleerd of de gebruiker de voorkeur geeft aan externe MIDI-automatisering of aan de lokale manuele modus via de ingebouwde potmeter.
