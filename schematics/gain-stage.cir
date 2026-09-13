@@ -1,0 +1,46 @@
+.title KiCad schematic
+C12 Net-_C11-Pad1_ Net-_C12-Pad2_ 223/400V
+V2A1 __V2A1
+C11 Net-_C11-Pad1_ Net-_C11-Pad2_ 102/500V
+R14 Net-_C11-Pad2_ Net-_C11-Pad1_ 100K/1W
+C15 Net-_C15-Pad1_ GND 2.2uF/35V
+R19 GND Net-_R19-Pad2_ 220K/1W
+R21 GND Net-_C15-Pad1_ 2K2/1W
+R21'1 GND Net-_C15-Pad1_ 2K2/1W
+V2B1 __V2B1
+R16 Net-_C14-Pad1_ Net-_C12-Pad2_ 220K/1W
+C13 Net-_C13-Pad1_ Net-_C12-Pad2_ 471/1KV
+R17 Net-_C13-Pad1_ Net-_C14-Pad1_ 220K/1W
+RV3 __RV3
+RV4 __RV4
+D1 __D1
+R20 Net-_R20-Pad1_ Net-_C11-Pad2_ 100K/1W
+C14 Net-_C14-Pad1_ Net-_C14-Pad2_ 223/400V
+R18 Net-_R18-Pad1_ Net-_C13-Pad1_ 1M/1W
+RLY2 __RLY2
+R15 Net-_R15'1-Pad2_ GND 2K2/1W
+C3 Net-_C2-Pad2_ Net-_C3-Pad2_ 101/1KV
+R5 Net-_C2-Pad2_ Net-_C3-Pad2_ 1M/1W
+C4 Net-_C3-Pad2_ Net-_C4-Pad2_ 101/1KV
+R6'1 Net-_C5-Pad2_ Net-_C2-Pad2_ 820K/1W
+C7 Net-_C7-Pad1_ Net-_C7-Pad2_ 102/500V
+E1 __E1
+R7 Net-_C7-Pad2_ Net-_C7-Pad1_ 100k/1W
+RV1 __RV1
+C10 Net-_C10-Pad1_ Net-_C10-Pad2_ 471/1KV
+R11 Net-_R11-Pad1_ Net-_C10-Pad2_ 470K/1W
+C9 Net-_C7-Pad2_ Net-_C10-Pad1_ 223/400V
+R9 Net-_C10-Pad2_ Net-_C10-Pad1_ 1M/1W
+V1B1 __V1B1
+C8 Net-_C8-Pad1_ GND 22uF/35V
+R8 GND Net-_C8-Pad1_ 2.2K/1W
+R10 GND Net-_C10-Pad2_ 220K/1W
+R15'1 GND Net-_R15'1-Pad2_ 5K6/1W
+C6 Net-_C5-Pad2_ unconnected-_C6-Pad2_ 101/1KV
+RV2 __RV2
+C2 unconnected-_C2-Pad1_ Net-_C2-Pad2_ 223/400V
+C5 Net-_C2-Pad2_ Net-_C5-Pad2_ 471/400V
+R6 Net-_C2-Pad2_ Net-_C5-Pad2_ 1M/1W
+F1 __F1
+RL1 __RL1
+.end
